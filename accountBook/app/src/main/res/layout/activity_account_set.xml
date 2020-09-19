@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".AccountSetActivity">
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_acc"
+            style="@style/textstyle"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="Alipay"
+            android:textColor="#ffff"
+            android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="200.0dip"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:text="Currency : "
+                    android:textSize="18sp"
+                    android:gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white" />
+            </FrameLayout>
+            <ImageView
+                android:layout_gravity="center"
+                android:background="@mipmap/form_row_input_divider"
+                android:layout_width="1.0dip"
+                android:layout_height="38.0dip" />
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:id="@+id/tv_hkd"
+                    android:text="CNY"
+                    android:textSize="18sp"
+                    android:gravity="center"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_width="75dp"
+                    android:textColor="@color/white" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="200.0dip"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:text="Money : "
+                    android:textSize="18sp"
+                    android:gravity="right"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/white" />
+            </FrameLayout>
+            <ImageView
+                android:layout_gravity="center"
+                android:background="@mipmap/form_row_input_divider"
+                android:layout_width="1.0dip"
+                android:layout_height="38.0dip" />
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <Button
+                    android:text="10000"
+                    android:textSize="18sp"
+                    android:id="@+id/btn_money"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:background="@drawable/form_row_input_middle_short_left"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+            </FrameLayout>
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            >
+
+            <Button
+                android:id="@+id/btn_save"
+                style="@style/common_toolbar_btn_for_addexpense"
+                android:layout_width="115.0dip"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="39.0dip"
+                android:onClick="OnMySaveClick"
+                android:text="@string/save" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                style="@style/common_toolbar_btn_for_addexpense"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30.0dip"
+                android:onClick="OnMyCancelClick"
+                android:text="@string/cancel" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
+

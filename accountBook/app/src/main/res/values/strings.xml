@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Account Book</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="spn_prompt_category">Category</string>
+    <string name="spn_prompt_account">Account</string>
+    <string name="spn_prompt_project">Project</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="aboutUs">About Us</string>
+    <string name="jianjie">In this project, we hop this application that can help us remind ourselves of what we spent and keep track of our money.</string>
+
+    <string name="login">Login</string>
+    <string name="forgetPwd">ForgetPassword</string>
+    <string name="startRegist">StartRegist</string>
+    <string name="regist">Regist</string>
+    <string name="resPwd">ResetPassword</string>
+    <string name="confirm">OK</string>
+
+    <string name="detail_tab">Details</string>
+    <string name="category_report_tab">Categories report</string>
+
+    <string name="setting">Setting</string>
+    <string name="setting_des">To be done. Thank you.</string>
+
+    <string name="wish">Wish</string>
+    <string name="wish_des">To be done. Thank you.</string>
+
+
+    <!-- memo——MyDialog -->
+    <string name="dialog_memo_title">Note</string>
+    <string name="dialog_memo_ok">Save</string>
+    <string name="dialog_memo_cancle">Cancel</string>
+
+    <!-- TransactionTabActivity -->
+    <string name="input_message">Please fill in the amount.</string>
+    <string name="edit_message">Edit Success</string>
+    <string name="save_message">Save SuccessFully</string>
+    <string name="edit_in">Edit Income</string>
+    <string name="edit_out">Edit Spending</string>
+</resources>
